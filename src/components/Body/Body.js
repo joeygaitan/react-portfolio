@@ -9,6 +9,9 @@ class Body extends Component {
         return ( 
             <div className = "container">
                 <div className="languageBar">
+                    <p>
+                        Javascript
+                    </p>
                     
                 </div>  
                 <div className="innerContainer">
@@ -16,7 +19,7 @@ class Body extends Component {
 
                     </div>
                     <div className="item2">
-                        
+
                     </div>
                 </div>
             </div>
