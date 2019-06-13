@@ -8,6 +8,7 @@ class Body extends Component {
     }
     render() { 
         return ( 
+        <div>
             <div className = "container">
                 <div className="languageBar">
                     <p>Javascript</p>
@@ -27,6 +28,7 @@ class Body extends Component {
                     </div>
                 </div>
             </div>
+        </div>
          );
     }
 }

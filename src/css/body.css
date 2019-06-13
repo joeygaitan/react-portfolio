@@ -4,6 +4,7 @@
 }
 
 .languageBar {
+    background-color: aqua;
     display: grid;
     text-align: center;
     grid-template-columns: auto auto auto auto auto auto auto;

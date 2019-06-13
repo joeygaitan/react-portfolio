@@ -1,6 +1,7 @@
-.container{
+.wrapper{
     display: grid;
     grid-template-columns: 50% 50%;
+    background-color: aqua;
 }
 
 .item1 {
@@ -8,5 +9,5 @@
 }
 
 .item2{
-
+    text-align: center;
 }
