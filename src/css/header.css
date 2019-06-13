@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item1 {
+    text-align: center;
+}
+
+.item2{
+
+}
