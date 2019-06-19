@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavBar from './components/Navbar/NavBar'
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import Projects from './components/projects/Projects';
@@ -7,6 +8,7 @@ class App extends Component {
   render() {
     return (
       <div>
+          <NavBar/>
           <Header/>
           <Body/>
           <Projects/>

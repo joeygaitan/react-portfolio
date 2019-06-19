@@ -21,14 +21,14 @@ class Body extends Component {
                 </div>  
                 <div className="innerContainer">
                     <div className="item1">
-
+                        
                     </div>
                     <div className="item2">
 
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
          );
     }
 }
