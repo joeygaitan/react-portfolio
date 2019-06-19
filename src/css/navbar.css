@@ -1,6 +1,21 @@
 .container{
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-rows: 100px 300px; */
+    position: sticky;
 }
+
+.container h2 {
+    padding-top: 10px;
+    text-align: center;
+    background-color: red; 
+}
+
+.container h2:hover{
+  cursor: pointer;
+}
+
+.container h2::after {
+    
+  }
