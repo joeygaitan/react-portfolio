@@ -19,12 +19,15 @@
 .innerContainer{
     display: grid;
     grid-template-columns: auto auto;
+    grid-gap: 10px;
+    text-align: center;
 }
 
-.item1{
+/* .iCitem1{
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
-}
+    /* grid-template-rows: 100px 300px; */
+/* } */ 
 
 
