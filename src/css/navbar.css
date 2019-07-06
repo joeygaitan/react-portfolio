@@ -4,13 +4,16 @@
     grid-template-columns: auto auto auto auto auto;
     /* grid-template-rows: 100px 300px; */
     position: sticky;
-    top: 0px;
+    top: 0;
+    /* background-color: blue; */
 }
 
 .container h2 {
     padding: 30px;
+    margin: -20px;
     text-align: center;
-    background-color: red; 
+    background-color: #5D5C69;
+    color: white;
 }
 
 .container h2:hover{
