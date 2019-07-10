@@ -13,15 +13,26 @@ class NavBar extends Component {
         return ( 
         <div className="container">
             
-            <div>
-                <Dot className="blue"/>
+            <div className="home">
+                <Dot className="dotSvg"/>
                 <h3>Home</h3>
             </div>
-            
-            <h3>Skills</h3>
-            <h3>About</h3>
-            <h3>Work</h3>
-            <h3>Contact</h3>
+            <div className="skills">
+                <Dot className="dotSvg"/>
+                <h3>Skills</h3>
+            </div>
+            <div className="about">
+                <Dot className="dotSvg"/>
+                <h3>About</h3>
+            </div>
+            <div>
+                <Dot className="dotSvg"/>
+                <h3>Work</h3>
+            </div>
+            <div>
+                <Dot className="dotSvg"/>
+                <h3>Contact</h3>
+            </div>
             
         </div> );
     }
