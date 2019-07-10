@@ -8,7 +8,7 @@
     /* background-color: blue; */
 }
 
-.container h2 {
+.container h3{
     padding: 30px;
     margin: -20px;
     text-align: center;
@@ -16,10 +16,6 @@
     color: white;
 }
 
-.container h2:hover{
+.container h3:hover{
   cursor: pointer;
 }
-
-/* .container h2::after {
-    
-  } */

@@ -11,11 +11,12 @@ class NavBar extends Component {
     render() { 
         return ( 
         <div className="container">
-            <h2>Home</h2>
-            <h2>Skills</h2>
-            <h2>About</h2>
-            <h2>Work</h2>
-            <h2>Contact</h2>
+            <h3>Home</h3>
+            <h3>Skills</h3>
+            <h3>About</h3>
+            <h3>Work</h3>
+            <h3>Contact</h3>
+            <img alt=""src={"./dot.svg"}/>
         </div> );
     }
 }
