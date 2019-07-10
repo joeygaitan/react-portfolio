@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../css/navbar.css'
+import { ReactComponent as Dot } from './dot.svg';
 
 class NavBar extends Component {
     constructor(props) {
@@ -11,8 +12,12 @@ class NavBar extends Component {
     render() { 
         return ( 
         <div className="container">
-            <img className="dot" src={require("./dot.svg")}/>
-            <h3>Home</h3>
+            
+            <div>
+                <Dot className="blue"/>
+                <h3>Home</h3>
+            </div>
+            
             <h3>Skills</h3>
             <h3>About</h3>
             <h3>Work</h3>

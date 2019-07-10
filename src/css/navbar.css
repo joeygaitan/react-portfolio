@@ -6,9 +6,15 @@
     position: sticky;
     top: 0;
     /* background-color: blue; */
+
 }
 
-.dot:hover{
+.blue{
+  position: relative;
+  fill: pink;
+}
+
+.container .dot:hover{
   cursor: pointer;
   fill: red;
 }
