@@ -8,6 +8,11 @@
     /* background-color: blue; */
 }
 
+.dot:hover{
+  cursor: pointer;
+  fill: red;
+}
+
 .container h3{
     padding: 30px;
     margin: -20px;
