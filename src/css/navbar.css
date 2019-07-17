@@ -7,7 +7,12 @@
     top: 0;
 }
 
+.dotSvg{
+  fill:#0000
+}
+
 .dotSvg:hover{
+  transition-duration: .4s;
   cursor: pointer;
   fill: #5AE2EB !important;
 
