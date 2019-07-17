@@ -5,18 +5,12 @@
     /* grid-template-rows: 100px 300px; */
     position: sticky;
     top: 0;
-    /* background-color: blue; */
-
 }
 
-.blue{
-  position: relative;
-  fill: pink;
-}
-
-.container .dot:hover{
+.dotSvg:hover{
   cursor: pointer;
-  fill: red;
+  fill: #5AE2EB !important;
+
 }
 
 .container h3{
