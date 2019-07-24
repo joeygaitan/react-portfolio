@@ -1,15 +1,21 @@
 .container{
     display: grid;
     text-align: center;
-    grid-template-columns: auto auto auto auto auto;
-    /* grid-template-rows: 100px 300px; */
+    grid-template-columns: 60% 40%;
     position: sticky;
     top: 0;
     background-color: #5D5C69;
-    padding: 30px;
-    margin: -20px;
-    text-align: center;
-    color: white
+}
+
+
+.Buttons{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.Home{
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 
 .dotSvg{
@@ -25,14 +31,13 @@
 }
 
 
-.container h3{
+/* .container h3{
     padding: 30px;
     margin: -20px;
     text-align: center;
-    background-color: ;
     color: white;
 }
 
 .container h3:hover{
   cursor: pointer;
-}
+} */
