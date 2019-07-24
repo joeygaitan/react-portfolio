@@ -5,24 +5,31 @@
     /* grid-template-rows: 100px 300px; */
     position: sticky;
     top: 0;
+    background-color: #5D5C69;
+    padding: 30px;
+    margin: -20px;
+    text-align: center;
+    color: white
 }
 
 .dotSvg{
+  height: 10%;
+  width: 10%;
   fill:#0000
 }
 
 .dotSvg:hover{
   transition-duration: .4s;
   cursor: pointer;
-  fill: #5AE2EB !important;
-
+  fill: #5AE2EB;
 }
+
 
 .container h3{
     padding: 30px;
     margin: -20px;
     text-align: center;
-    background-color: #5D5C69;
+    background-color: ;
     color: white;
 }
 

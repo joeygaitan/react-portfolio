@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../css/navbar.css'
 import { ReactComponent as Dot } from './dot.svg';
 
+
 class NavBar extends Component {
     constructor(props) {
         super(props);
@@ -12,7 +13,6 @@ class NavBar extends Component {
     render() { 
         return ( 
         <div className="container">
-            
             <div className="home">
                 <Dot className="dotSvg"/>
                 <h3>Home</h3>
