@@ -22,23 +22,23 @@ class NavBar extends Component {
             <div className="Buttons">
                 <div className="buttonItem">
                     <Dot className="dotSvg"/>
-                    <h4 className="buttonText">Home</h4>
+                    <p className="buttonText">Home</p>
                 </div>
                 <div className="buttonItem">
                     <Dot className="dotSvg"/>
-                    <h4 className="buttonText">Skills</h4>
+                    <p className="buttonText">Skills</p>
                 </div>
                 <div className="buttonItem">
                     <Dot className="dotSvg"/>
-                    <h4 className="buttonText">About</h4>
+                    <p className="buttonText">About</p>
                 </div>
                 <div className="buttonItem">
                     <Dot className="dotSvg"/>
-                    <h4 className="buttonText">Work</h4>
+                    <p className="buttonText">Work</p>
                 </div>
                 <div className="buttonItem">
                     <Dot className="dotSvg"/>
-                    <h4 className="buttonText">Contact</h4>
+                    <p className="buttonText">Contact</p>
                 </div>
             </div>
         </div> );

@@ -12,7 +12,7 @@ class Header extends Component {
         <div>
             <div className="wrapper">
                 <div className="item1">
-                    <h1>Jose Gaitan</h1>
+                    <h1>Jose <br/>Gaitan</h1>
                     <h2>Frontend Developer</h2>
                 </div>
                 <div className="item2">

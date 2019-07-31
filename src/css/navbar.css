@@ -11,16 +11,19 @@
 .Buttons{
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-right:50px;
 }
 
 .buttonItem{
   display: grid;
   grid-template-columns:50% 50%;
+  margin-right:
 }
 
 .buttonText{
   margin-right: 5px;
-  
+  font-size: 15px;
+  color: white;
 }
 
 
@@ -41,16 +44,10 @@
   color: white;
 }
 
-.buttonItem:hover svg{
+.buttonItem:hover svg circle{
   transition-duration: .4s;
   cursor: pointer;
   fill: #5AE2EB;
   cursor: pointer;
   color: white;
 }
-
-/* .dotSvg:hover{
-  transition-duration: .4s;
-  cursor: pointer;
-  fill: #5AE2EB;
-} */

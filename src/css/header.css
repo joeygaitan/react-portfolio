@@ -5,7 +5,8 @@
 }
 
 .item1 {
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
 }
 
 .item2{
