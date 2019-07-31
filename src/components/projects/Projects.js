@@ -7,7 +7,7 @@ class Projects extends Component {
     }
     render() { 
         return ( 
-        <div>
+        <div ref={this.props.refProject}>
             <p>
                 projects
             </p>

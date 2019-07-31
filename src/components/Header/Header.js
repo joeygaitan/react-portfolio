@@ -10,12 +10,12 @@ class Header extends Component {
     render() { 
         return ( 
         <div>
-            <div className="wrapper">
+            <div className="wrapper" ref={this.props.refHome}>
                 <div className="item1">
                     <h1>Jose <br/>Gaitan</h1>
-                    <h2>Frontend Developer</h2>
+                    <p className="itemText">Software Engineer</p>
                 </div>
-                <div className="item2">
+                <div className="icons">
                     <p>
                         hello
                     </p>

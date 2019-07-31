@@ -9,7 +9,7 @@ class Footer extends Component {
     render() { 
         return ( 
         <div>
-            <div className="footerContainer">
+            <div className="footerContainer" ref={this.props.refContact}>
                 <p>Email: joeygaitan707@gmail.com</p>
                 <p>Cell Phone Number: 7074957284</p>
                 <p>linkedn</p>

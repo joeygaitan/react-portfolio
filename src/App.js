@@ -15,7 +15,7 @@ class App extends Component {
     this.home = React.createRef();
     this.skills = React.createRef();
     this.about = React.createRef();
-    this.work = React.createRef();
+    this.project = React.createRef();
     this.contact = React.createRef();
   } 
   
@@ -35,9 +35,9 @@ class App extends Component {
         top: this.about.current.offsetTop,
         behavior: 'smooth'
       });
-    if (ref === 'work')
+    if (ref === 'project')
       window.scrollTo({
-        top: this.work.current.offsetTop,
+        top: this.project.current.offsetTop,
         behavior: 'smooth'
       });
     if (ref === 'contact')
@@ -50,11 +50,11 @@ class App extends Component {
   render() {
     return (
       <div id="wrapper">
-          <NavBar/>
-          <Header/>
-          <Body/>
-          <Projects/>
-          <Footer/>
+          <NavBar scrollToRef={this.scrollToRef}/>
+          <Header  refHome={this.home}/>
+          <Body refAbout ={this.about} refSkills ={this.skills}/>
+          <Projects refProject ={this.project}/>
+          <Footer refContact={this.contact}/>
       </div>
     );
   }
