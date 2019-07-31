@@ -13,31 +13,44 @@
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
+.buttonItem{
+  display: grid;
+  grid-template-columns:50% 50%;
+}
+
+.buttonText{
+  margin-right: 5px;
+  
+}
+
+
 .Home{
   display: grid;
   grid-template-columns: 20% 80%;
 }
 
 .dotSvg{
-  height: 10%;
-  width: 10%;
-  fill:#0000
+  height: 30%;
+  width: 30%;
+  fill:#0000;
+  margin: auto;
 }
 
-.dotSvg:hover{
+.buttonItem:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.buttonItem:hover svg{
   transition-duration: .4s;
   cursor: pointer;
   fill: #5AE2EB;
-}
-
-
-/* .container h3{
-    padding: 30px;
-    margin: -20px;
-    text-align: center;
-    color: white;
-}
-
-.container h3:hover{
   cursor: pointer;
+  color: white;
+}
+
+/* .dotSvg:hover{
+  transition-duration: .4s;
+  cursor: pointer;
+  fill: #5AE2EB;
 } */
