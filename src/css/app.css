@@ -1,3 +1,10 @@
     #wrapper{
     font-family: Hind,sans-serif;
+    background-image: url(../images/self.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: lightblue;
+    position: sticky;
+    top: 10;
+    background-attachment: fixed;
     }

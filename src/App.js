@@ -22,7 +22,7 @@ class App extends Component {
   scrollToRef = ref => {
     if (ref === 'home')
       window.scrollTo({
-        top: this.home.current.offsetTop,
+        top: this.home.current.offsetParent,
         behavior: 'smooth'
       });
     if (ref === 'skills')

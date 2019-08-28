@@ -1,16 +1,19 @@
 .wrapper{
+    width: 1200px;
+    height: 800px;
     display: grid;
-    grid-template-rows: 60% 40%;
-    background-color: aqua;
 }
 
 .item1 {
+    font-size:  30px;
+    margin-top: 50px;
     text-align: left;
     margin-left: 30px;
-    border-bottom: 1px solid rgba(4, 0, 0, 0.4);
+    /* border-bottom: 1px solid rgba(4, 0, 0, 0.4); */
 }
 
 .itemText{
+    font-size: 50px;
     color: white;
 }
 

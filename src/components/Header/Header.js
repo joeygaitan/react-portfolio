@@ -12,7 +12,7 @@ class Header extends Component {
         <div>
             <div className="wrapper" ref={this.props.refHome}>
                 <div className="item1">
-                    <h1>Jose <br/>Gaitan</h1>
+                    <h1>Jose Gaitan</h1>
                     <p className="itemText">Software Engineer</p>
                 </div>
                 <div className="icons">

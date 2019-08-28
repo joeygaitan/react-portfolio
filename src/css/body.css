@@ -1,28 +1,45 @@
 .bodyContainer{
     display: grid;
     background-color: #88BDBC;
+    
 }
 
 .languageBar {
-    background-color: aqua;
     display: grid;
     text-align: center;
     grid-template-columns: auto auto auto auto auto auto auto;
     /* grid-template-rows: 100px 300px; */
-    grid-gap: 10px;
+    grid-gap: 5px;
+    
 }
 
 .languageBar p{
     text-align: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
 .innerContainer{
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 50px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     grid-gap: 10px;
     text-align: center;
+}
+
+.innerContainer h2{
+    font-size: 30px;
+    font-weight: normal; 
+}
+
+.innerContainer h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 /* .iCitem1{
