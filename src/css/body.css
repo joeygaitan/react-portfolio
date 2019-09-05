@@ -1,7 +1,8 @@
 .bodyContainer{
     display: grid;
-    background-color: #88BDBC;
-    
+    margin: 20px;
+    align-content: space-around;
+    justify-content: space-between;
 }
 
 .languageBar {
@@ -10,7 +11,9 @@
     grid-template-columns: auto auto auto auto auto auto auto;
     /* grid-template-rows: 100px 300px; */
     grid-gap: 5px;
-    
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #88BDBC;
 }
 
 .languageBar p{
@@ -28,14 +31,16 @@
     grid-template-columns: 50% 50%;
     grid-gap: 10px;
     text-align: center;
+    background-color: #88BDBC;
+
 }
 
-.innerContainer h2{
+.education{
     font-size: 30px;
     font-weight: normal; 
 }
 
-.innerContainer h4{
+.backStory{
     font-size: 20px;
     font-weight: normal;
     margin-right: 100px;
