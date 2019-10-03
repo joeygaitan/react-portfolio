@@ -22,19 +22,19 @@ class NavBar extends Component {
                     <Dot className="dotSvg"/>
                     <p className="buttonText">Home</p>
                 </div>
-                <div className="buttonItem" onClick={()=> this.props.scrollToRef("skills")}>
+                <div className="buttonItem" onClick={()=>this.props.scrollToRef("skills")}>
                     <Dot className="dotSvg"/>
                     <p className="buttonText">Skills</p>
                 </div>
-                <div className="buttonItem" onClick={()=> this.props.scrollToRef("about")}>
+                <div className="buttonItem" onClick={()=>this.props.scrollToRef("about")}>
                     <Dot className="dotSvg"/>
                     <p className="buttonText">About</p>
                 </div>
-                <div className="buttonItem" onClick={()=> this.props.scrollToRef("project")}>
+                <div className="buttonItem" onClick={()=>this.props.scrollToRef("project")}>
                     <Dot className="dotSvg"/>
                     <p className="buttonText">Projects</p>
                 </div>
-                <div className="buttonItem" onClick={()=> this.props.scrollToRef("contact")}>
+                <div className="buttonItem" onClick={()=>this.props.scrollToRef("contact")}>
                     <Dot className="dotSvg"/>
                     <p className="buttonText">Contact</p>
                 </div>

@@ -1,7 +1,10 @@
 .wrapper{
-    width: 1200px;
-    height: 800px;
     display: grid;
+    background-image: url(../images/headRaw.jpg);
+    /* width: 1800px; */
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-color: red;
 }
 
 .item1 {
@@ -19,4 +22,8 @@
 
 .item2{
     text-align: center;
+}
+
+.icons{
+    margin: 20px;
 }

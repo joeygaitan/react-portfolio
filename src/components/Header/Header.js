@@ -16,9 +16,15 @@ class Header extends Component {
                     <p className="itemText">Software Engineer</p>
                 </div>
                 <div className="icons">
-                    <p>
-                        hello
-                    </p>
+                    <div className="linkedn">
+                        <h3>linkedn</h3>
+                    </div>
+                    <div className="GitHub">
+                        <h3>GitHub</h3>
+                    </div>
+                    <div className="Medium">
+                        <h3>Medium</h3>
+                    </div>
                 </div>
             </div>
         </div> );

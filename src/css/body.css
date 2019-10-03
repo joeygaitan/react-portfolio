@@ -1,21 +1,11 @@
+
+
 .bodyContainer{
     display: grid;
     margin: 20px;
     align-content: space-around;
     justify-content: space-between;
 }
-
-.languageBar {
-    display: grid;
-    text-align: center;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    /* grid-template-rows: 100px 300px; */
-    grid-gap: 5px;
-    margin-top: 10px;
-    margin-right: 5px;
-    background-color: #88BDBC;
-}
-
 .languageBar p{
     text-align: center;
     border-left: 1px solid;

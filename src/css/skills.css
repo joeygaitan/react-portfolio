@@ -1,0 +1,9 @@
+.skills{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #88BDBC;
+}

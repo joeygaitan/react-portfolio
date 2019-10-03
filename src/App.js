@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './components/Navbar/NavBar'
 import Header from './components/Header/Header';
+import Skills from './components/Skills/Skills';
 import Body from './components/Body/Body';
 import Projects from './components/projects/Projects';
 import Footer from './components/Footer/Footer';
@@ -52,7 +53,8 @@ class App extends Component {
       <div id="wrapper">
           <NavBar scrollToRef={this.scrollToRef}/>
           <Header  refHome={this.home}/>
-          <Body refAbout ={this.about} refSkills ={this.skills}/>
+          <Skills refSkills = {this.skills}/>
+          <Body refAbout ={this.about}/>
           <Projects refProject ={this.project}/>
           <Footer refContact={this.contact}/>
       </div>
