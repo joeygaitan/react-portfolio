@@ -9,13 +9,29 @@ class Skills extends Component {
         return ( 
         <div ref={this.props.refSkills}>
                 <div className="skills">
-                    <p >Javascript</p>
-                    <p>Node.js</p>
-                    <p>React.js</p>
-                    <p>Redux</p>
-                    <p>CSS</p>
-                    <p>AJAX</p>
-                    <p>Express.js (MVC)</p>
+                    <div className="rating">
+                        <p>Javascript</p>
+                        <div className="square"></div>
+                        
+                    </div>
+                    <div>
+                        <p>React.js</p><div className="square"></div>
+                    </div>
+                    <div>
+                        <p>Redux</p><div className="square"></div>
+                    </div>
+                    <div>
+                        <p>Git</p><div className="square"></div>
+                    </div>
+                    <div>
+                        <p>CSS</p><div className="square"></div>
+                    </div>
+                    <div>
+                        <p>AJAX</p><div className="square"></div>
+                    </div>
+                    <div>
+                        <p>Express.js (MVC)</p>
+                    </div>
                 </div>
         </div> );
     }

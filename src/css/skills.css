@@ -7,3 +7,13 @@
     margin-right: 5px;
     background-color: #88BDBC;
 }
+
+.rating{
+
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+}
