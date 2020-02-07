@@ -1,7 +1,7 @@
 .skills{
     display: grid;
     text-align: center;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
     margin-top: 10px;
     margin-right: 5px;
@@ -10,7 +10,13 @@
 }
 
 .rating{
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.rating > div {
+  background-color: red;
 }
 
 .square {
