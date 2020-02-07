@@ -17,10 +17,10 @@ class Header extends Component {
                 </div>
                 <div className="icons">
                     <div className="linkedn">
-                        <h3>linkedn</h3>
+                        <a href='https://www.linkedin.com/in/joey-gaitan/' style={{color:'#2867B2'}}><h3>linkedn</h3></a>  
                     </div>
                     <div className="GitHub">
-                        <h3>GitHub</h3>
+                        <a href='https://github.com/joeygaitan' style={{color:'black'}}><h3>GitHub</h3></a>
                     </div>
                     <div className="Medium">
                         <h3>Medium</h3>

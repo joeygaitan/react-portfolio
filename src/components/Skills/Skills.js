@@ -18,7 +18,13 @@ class Skills extends Component {
                         <p>React.js</p><div className="square">5</div>
                     </div>
                     <div className='rating'>
-                        <p>Redux</p><div className="square">4</div>
+                        <p>Redux</p>
+                            <div className="square">
+                                <svg width="200" height="85">
+                                    <rect x="50" y="20" rx="20" ry="20" width="20" height="20"
+                                    style={{fill:'red',stroke:'black', strokeWidth:'5',opacity:"0.5"}} />
+                                </svg>
+                            </div>
                     </div>
                     <div className='rating'>
                         <p>Git</p><div className="square">3</div>
