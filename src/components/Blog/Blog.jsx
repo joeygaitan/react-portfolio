@@ -14,8 +14,10 @@ class Blog extends Component {
                 Personal Blog about my experiences in the Tech industry.
             </h1>
             <h2>
-                Indie Devlog
+            <strong>Unity Indie Devlog day 1:</strong> I've made two scenes. I constructed the foundation for 
             </h2>
+            <p>Unity</p><p>#C#</p><p>C#-API-Call</p>
+            
         </div> );
     }
 }

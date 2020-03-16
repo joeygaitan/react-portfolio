@@ -8,7 +8,6 @@ class Body extends Component {
     }
     render() { 
         return ( 
-        
             <div className = "bodyContainer" ref={this.props.refSkills}> 
                 <div className="innerContainer" ref={this.props.refAbout}>
                         <div className="education">

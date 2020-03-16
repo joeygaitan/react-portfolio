@@ -1,15 +1,16 @@
-.skills{
+.skills {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-right: 5px;
     background-color: #88BDBC;
     padding-left: 100px
 }
 
 .rating{
+  padding-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
