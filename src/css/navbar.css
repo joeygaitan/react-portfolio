@@ -43,10 +43,13 @@
   color: white;
 }
 
-.buttonItem:hover svg circle{
+ .buttonItem:hover svg circle {
   transition-duration: .4s;
-  cursor: pointer;
   fill: #5AE2EB;
   cursor: pointer;
-  color: white;
 }
+
+.active:focus{
+  background-color: red;
+}
+
