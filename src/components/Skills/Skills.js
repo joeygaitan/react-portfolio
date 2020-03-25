@@ -1,17 +1,41 @@
 import React, { Component } from 'react';
-import '../../css/skills.css'
-
+import '../../css/skills.css';
+import { ReactComponent as Sdcard } from './sdcard.svg';
+ 
 class Skills extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = { 
+            rank: {
+                "javascript":4,
+                "react":4,
+                "Redux":3,
+                "Git":4,
+                "CSS":3,
+                "AJAX":4,
+                "express":3,
+                "unity":2,
+                "illustrator":2,
+                "svg":2
+            }
+         }
     }
+
+    rankBuilder = (selection) => {
+        let value = this.state.rank[selection]
+        
+        for(let i = 0;i<value;i += 1){
+            
+        }
+    }
+
     render() { 
         return ( 
         <div ref={this.props.refSkills}>
                 <div className="skills">
                     <div className='rating'>
                         <p>Javascript</p>
+                        <Sdcard className="sdCard"/>
                         <div className="square">6</div>
                     </div>
                     <div className='rating'>
@@ -20,10 +44,7 @@ class Skills extends Component {
                     <div className='rating'>
                         <p>Redux</p>
                             <div className="square">
-                                <svg width="200" height="85">
-                                    <rect x="50" y="20" rx="20" ry="20" width="20" height="20"
-                                    style={{fill:'red',stroke:'black', strokeWidth:'5',opacity:"0.5"}} />
-                                </svg>
+
                             </div>
                     </div>
                     <div className='rating'>
@@ -36,7 +57,10 @@ class Skills extends Component {
                         <p>AJAX</p><div className="square">1</div>
                     </div>
                     <div className='rating'>
-                        <p>Express.js (MVC)</p><div className="square">0</div>
+                        <p>Express.js (MVC)</p>{()=>this.rankBuilder('express')}
+                    </div>
+                    <div className="rating">
+                        <p>Unity Engine</p>
                     </div>
                 </div>
         </div> );

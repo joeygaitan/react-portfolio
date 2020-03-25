@@ -19,7 +19,6 @@ class NavBar extends Component {
     }
 
     update = (selection) => {
-        console.log(this.state.selected)
             if(selection !== this.state.selected && this.state.selected !== ''){
                 this.setState(state=>{
                     const navbarItems = state.chosenSelection.map((item)=>{
