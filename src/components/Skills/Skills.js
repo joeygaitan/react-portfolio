@@ -1,66 +1,108 @@
 import React, { Component } from 'react';
 import '../../css/skills.css';
-import { ReactComponent as Sdcard } from './sdcard.svg';
+import { ReactComponent as SdCard } from './sdchip.svg';
  
 class Skills extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            rank: {
-                "javascript":4,
-                "react":4,
-                "Redux":3,
-                "Git":4,
-                "CSS":3,
-                "AJAX":4,
-                "express":3,
-                "unity":2,
-                "illustrator":2,
-                "svg":2
-            }
+                javascript:[],
+                react: [],
+                Redux: [],
+                Git: [],
+                CSS: [],
+                AJAX: [],
+                express: [],
+                unity: [],
+                illustrator: [],
+                svg: []
          }
     }
 
-    rankBuilder = (selection) => {
-        let value = this.state.rank[selection]
-        
-        for(let i = 0;i<value;i += 1){
-            
-        }
-    }
-
     render() { 
+        console.log(this.state.javascript)
         return ( 
         <div ref={this.props.refSkills}>
                 <div className="skills">
                     <div className='rating'>
                         <p>Javascript</p>
-                        <Sdcard className="sdCard"/>
-                        <div className="square">6</div>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
                     </div>
                     <div className='rating'>
-                        <p>React.js</p><div className="square">5</div>
+                        <p>React.js</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
                     </div>
                     <div className='rating'>
                         <p>Redux</p>
-                            <div className="square">
-
-                            </div>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
+                        <SdCard />
                     </div>
                     <div className='rating'>
-                        <p>Git</p><div className="square">3</div>
+                        <p>Git</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
                     </div>
                     <div className='rating'>
-                        <p>CSS</p><div className="square">2</div>
+                        <p>CSS</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
+                        <SdCard />
                     </div>
                     <div className='rating'>
-                        <p>AJAX</p><div className="square">1</div>
+                        <p>AJAX</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
+                        <SdCard />
                     </div>
                     <div className='rating'>
-                        <p>Express.js (MVC)</p>{()=>this.rankBuilder('express')}
+                        <p>Express.js (MVC)</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
+                        <SdCard />
+                        <SdCard />
                     </div>
                     <div className="rating">
                         <p>Unity Engine</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
+                        <SdCard />
+                        <SdCard />
+                    </div>
+                    <div className="rating">
+                        <p>Adobe Illustrator</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
+                        <SdCard />
+                        <SdCard />
+                    </div>
+                    <div className="rating">
+                        <p>SVG</p>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard className="sdCardScored"/>
+                        <SdCard />
+                        <SdCard />
+                        <SdCard />
                     </div>
                 </div>
         </div> );
