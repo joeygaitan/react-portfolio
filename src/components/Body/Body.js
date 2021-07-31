@@ -14,27 +14,7 @@ class Body extends Component {
                             <h2>Intro</h2>
                         </div>
                         <div className="backStory">
-                            <h4>    I started my way into the tech field when 
-                                I was in the sixth grade learning about making game servers. 
-                                After trying to teach myself I decided to go an organized
-                                 way of learning, so I attended a Junior College with the
-                                  plan to acquire a Computer Science Degree. However, while
-                                   In College I decided I wanted more of an Applied path for
-                                    learning computer science. That’s when I decided to apply
-                                     to coding boot camps. I eventually got into one and started 
-                                     attending Galvanize in Seattle. The program focused on learning 
-                                     about web development and some computer science fundamentals. 
-                                     It taught me many skills such as working with other software 
-                                     engineers in Agile Based Sprints, writing readable code, how to 
-                                     focus my attention on the right problems, how to ask the right questions,
-                                      asking for help when I need it, how to parse online documentation, 
-                                      and most of all how to teach myself new concepts. 3 months of
-                                       learning wasn't quite enough for me. That is when I decided to 
-                                       apply to a school that teaches you practical skills. 
-                                       I am now attending Make School In San Francisco 
-                                       getting a Bachelors Degree In applied Computer 
-                                       Science Native applications, 
-                                       and Fullstack Development, and Data Science</h4>
+                            <h4>    I started my way into the tech field when I was in the sixth grade learning about making game servers. I eventually decided to attend a Junior College with the plan to acquire a Computer Science Degree. I was only doing a bunch of general ed classes and basic coding classes. I wanted to learn more about the tech industry and the different roles within it. I didn't know anything about the industry. Whenever I asked they were more focused on transferring rather than actually caring about job placement. This leads me to take a year off of College and enrolling in a coding boot camp. I eventually got accepted at Galvanize in Seattle. The program focused on learning about web development and some computer science fundamentals. It taught me so many skills such as working with other software engineers in pair programming, writing readable code, how to focus my attention on the right problems, how to ask the right questions, asking for help when I need it, and most of all how to teach myself to learn new concepts on my own. After my receiving my certificate and learning a lot about the different fields in computer science I decided to go back to school. I then transferred to the Academy of Art University In San Francisco pursuing a Bachelors's Degree In Computer Programming. In addition, I still practice web development using modern-day frameworks such as React, typescript, express.js, and postgres working on personal and private projects.</h4>
                         </div>
                 </div>
             </div>
